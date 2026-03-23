@@ -4,4 +4,19 @@
 --
 -- Refer to the Tutorial.md file for information on how to use various event and command hooks in your scripts.
 
+DataManager = require("custom.DataManager.main")
+
+originalStart = require("custom.OriginalStart.main")
+kanaHousing = require("custom.kanaHousing")
+disableAssassins = require("custom.lear.trueDisableAssassins")
+creatureMerchantRestockGold = require("custom.lear.creatureMerchantRestockGold")
+followerQuestFixes = require("custom.lear.followerQuestFixes")
+bedrollScript = require("custom.lear.bedrollScript")
+
+
+
+
+
+
+
 

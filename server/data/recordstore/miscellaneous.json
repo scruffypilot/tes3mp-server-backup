@@ -1,0 +1,17 @@
+{
+  "general":{
+    "currentGeneratedNum":0
+  },
+  "permanentRecords":{
+    "droppable_bedroll":{
+      "name":"Player Bedroll",
+      "value":0,
+      "weight":1,
+      "icon":"m\\Misc_Uni_Pillow_02.tga",
+      "model":"f\\Active_De_Bedroll.NIF"
+    }
+  },
+  "generatedRecords":[],
+  "recordLinks":[],
+  "unlinkedRecordsToCheck":[]
+}
