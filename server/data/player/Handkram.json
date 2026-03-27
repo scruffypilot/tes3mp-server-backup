@@ -1,49 +1,114 @@
 {
-  "cooldowns":[],
   "login":{
-    "passwordSalt":"NfAMgBvQkv7ErhyYY3Q5OtVP0c1hW8uSqIu40XwtBnZVpjQNWqEIu3uO86wMNZkD",
+    "name":"Handkram",
     "passwordHash":"5181a64d1e696ca5c1fe375165075fec31ccde3b38ee69b0a5b1e81d41198706",
-    "name":"Handkram"
+    "passwordSalt":"NfAMgBvQkv7ErhyYY3Q5OtVP0c1hW8uSqIu40XwtBnZVpjQNWqEIu3uO86wMNZkD"
   },
-  "factionRanks":[],
+  "timestamps":{
+    "lastFixMe":1774591149,
+    "lastLogin":1774591932,
+    "creation":1774253779,
+    "lastDisconnect":1774591947,
+    "lastSessionDuration":15
+  },
+  "settings":{
+    "difficulty":"default",
+    "enforcedLogLevel":"default",
+    "physicsFramerate":"default",
+    "consoleAllowed":"default",
+    "bedRestAllowed":"default",
+    "wildernessRestAllowed":"default",
+    "waitAllowed":"default",
+    "staffRank":0
+  },
   "character":{
-    "hair":"b_n_breton_m_hair_02",
     "gender":1,
-    "modelOverride":"",
+    "race":"breton",
     "head":"b_n_breton_m_head_03",
+    "hair":"b_n_breton_m_hair_02",
     "class":"custom",
     "birthsign":"elfborn",
-    "race":"breton"
+    "modelOverride":""
   },
-  "recordLinks":[],
-  "equipment":[null,null,null,null,null,null,{
-      "enchantmentCharge":-1,
-      "count":1,
-      "refId":"common_shoes_01",
-      "charge":-1
-    },{
-      "enchantmentCharge":-1,
-      "count":1,
-      "refId":"common_shirt_01",
-      "charge":-1
-    },{
-      "enchantmentCharge":-1,
-      "count":1,
-      "refId":"common_pants_01",
-      "charge":-1
-    }],
-  "settings":{
-    "staffRank":0,
-    "difficulty":"default",
-    "physicsFramerate":"default",
-    "bedRestAllowed":"default",
-    "waitAllowed":"default",
-    "consoleAllowed":"default",
-    "wildernessRestAllowed":"default",
-    "enforcedLogLevel":"default"
+  "customClass":{
+    "name":"Arcane Trickster",
+    "majorAttributes":"Intelligence, Willpower",
+    "minorSkills":"Security, Sneak, Marksman, Mercantile, Speechcraft",
+    "specialization":1,
+    "majorSkills":"Destruction, Conjuration, Restoration, Alchemy, Enchant",
+    "description":""
   },
-  "spellsActive":[],
-  "alliedPlayers":[],
+  "location":{
+    "cell":"-1, -3",
+    "posX":-5126.3471679688,
+    "posY":-18379.810546875,
+    "posZ":930.34301757813,
+    "rotX":-0.19921875,
+    "rotZ":-1.8837802410126,
+    "regionName":"west gash region"
+  },
+  "stats":{
+    "healthBase":35,
+    "healthCurrent":35,
+    "magickaBase":180,
+    "magickaCurrent":180,
+    "fatigueBase":160,
+    "fatigueCurrent":158.77095031738,
+    "level":1,
+    "levelProgress":0
+  },
+  "fame":{
+    "reputation":0,
+    "bounty":0
+  },
+  "shapeshift":{
+    "isWerewolf":false,
+    "scale":1,
+    "displayCreatureName":false,
+    "creatureRefId":""
+  },
+  "attributes":{
+    "Strength":{
+      "base":40,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Agility":{
+      "base":30,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Personality":{
+      "base":40,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Speed":{
+      "base":30,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Luck":{
+      "base":40,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Endurance":{
+      "base":30,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Intelligence":{
+      "base":60,
+      "damage":0,
+      "skillIncrease":0
+    },
+    "Willpower":{
+      "base":60,
+      "damage":0,
+      "skillIncrease":0
+    }
+  },
   "skills":{
     "Block":{
       "base":5,
@@ -51,7 +116,7 @@
       "progress":0
     },
     "Alchemy":{
-      "base":40,
+      "base":39,
       "damage":0,
       "progress":0
     },
@@ -63,20 +128,20 @@
     "Conjuration":{
       "base":45,
       "damage":0,
-      "progress":0
+      "progress":1
     },
-    "Handtohand":{
-      "base":5,
+    "Marksman":{
+      "base":15,
       "damage":0,
       "progress":0
     },
     "Mediumarmor":{
-      "base":5,
+      "base":3,
       "damage":0,
       "progress":0
     },
     "Alteration":{
-      "base":15,
+      "base":14,
       "damage":0,
       "progress":0
     },
@@ -90,15 +155,15 @@
       "damage":0,
       "progress":0
     },
-    "Marksman":{
-      "base":15,
-      "damage":0,
-      "progress":0
-    },
     "Shortblade":{
       "base":5,
       "damage":0,
-      "progress":0
+      "progress":3
+    },
+    "Acrobatics":{
+      "base":5,
+      "damage":0,
+      "progress":0.89999997615814
     },
     "Sneak":{
       "base":15,
@@ -110,13 +175,13 @@
       "damage":0,
       "progress":0
     },
-    "Acrobatics":{
+    "Longblade":{
       "base":5,
       "damage":0,
       "progress":0
     },
     "Armorer":{
-      "base":5,
+      "base":4,
       "damage":0,
       "progress":0
     },
@@ -145,10 +210,10 @@
       "damage":0,
       "progress":0
     },
-    "Longblade":{
+    "Athletics":{
       "base":5,
       "damage":0,
-      "progress":0
+      "progress":1.5399990081787
     },
     "Illusion":{
       "base":15,
@@ -170,7 +235,7 @@
       "damage":0,
       "progress":0
     },
-    "Athletics":{
+    "Handtohand":{
       "base":5,
       "damage":0,
       "progress":0
@@ -178,111 +243,82 @@
     "Unarmored":{
       "base":10,
       "damage":0,
-      "progress":0
+      "progress":6
     }
   },
-  "location":{
-    "posX":0,
-    "posZ":0,
-    "posY":0,
-    "rotZ":0,
-    "rotX":0,
-    "regionName":"",
-    "cell":""
+  "recordLinks":[],
+  "equipment":{
+    "7":{
+      "enchantmentCharge":-1,
+      "count":1,
+      "refId":"common_shoes_01",
+      "charge":-1
+    },
+    "8":{
+      "enchantmentCharge":-1,
+      "count":1,
+      "refId":"common_shirt_01",
+      "charge":-1
+    },
+    "16":{
+      "enchantmentCharge":-1,
+      "count":0,
+      "refId":"",
+      "charge":-1
+    },
+    "9":{
+      "enchantmentCharge":-1,
+      "count":1,
+      "refId":"common_pants_01",
+      "charge":-1
+    }
   },
-  "mapExplored":[],
+  "inventory":[{
+      "refId":"common_shoes_01",
+      "enchantmentCharge":-1,
+      "count":1,
+      "charge":-1,
+      "soul":""
+    },{
+      "refId":"common_shirt_01",
+      "enchantmentCharge":-1,
+      "count":1,
+      "charge":-1,
+      "soul":""
+    },{
+      "refId":"common_pants_01",
+      "enchantmentCharge":-1,
+      "count":1,
+      "charge":-1,
+      "soul":""
+    }],
+  "spellbook":["hearth heal","summon ancestral ghost","bound dagger","fire bite"],
   "books":[],
-  "factionExpulsion":[],
-  "fame":{
-    "reputation":0,
-    "bounty":0
-  },
-  "topics":[],
+  "factionRanks":[],
   "factionReputation":[],
+  "factionExpulsion":[],
+  "mapExplored":["23, 7","0, 0","-1, 0","-1, -3"],
+  "ipAddresses":["127.0.0.1"],
   "customVariables":[],
+  "cooldowns":[],
+  "topics":[],
+  "alliedPlayers":[],
   "miscellaneous":{
     "markLocation":{
+      "cell":"",
       "posX":0,
-      "posZ":0,
       "posY":0,
-      "rotZ":0,
+      "posZ":0,
       "rotX":0,
-      "cell":""
+      "rotZ":0
     },
-    "selectedSpell":""
+    "selectedSpell":"bound dagger"
   },
-  "destinationOverrides":[],
-  "spellbook":["hearth heal","summon ancestral ghost","bound dagger","fire bite"],
-  "stats":{
-    "level":1,
-    "healthCurrent":35,
-    "fatigueBase":160,
-    "healthBase":35,
-    "magickaCurrent":180,
-    "levelProgress":0,
-    "magickaBase":180,
-    "fatigueCurrent":160
-  },
+  "spellsActive":[],
   "quickKeys":[],
-  "shapeshift":[],
-  "timestamps":{
-    "lastFixMe":0,
-    "lastLogin":1774253779,
-    "creation":1774253779,
-    "lastDisconnect":0,
-    "lastSessionDuration":0
+  "clientVariables":{
+    "globals":[]
   },
   "journal":[],
-  "attributes":{
-    "Strength":{
-      "base":40,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Agility":{
-      "base":30,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Luck":{
-      "base":40,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Speed":{
-      "base":30,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Personality":{
-      "base":40,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Endurance":{
-      "base":30,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Intelligence":{
-      "base":60,
-      "damage":0,
-      "skillIncrease":0
-    },
-    "Willpower":{
-      "base":60,
-      "damage":0,
-      "skillIncrease":0
-    }
-  },
-  "ipAddresses":["127.0.0.1"],
-  "customClass":{
-    "specialization":1,
-    "minorSkills":"Security, Sneak, Marksman, Mercantile, Speechcraft",
-    "majorAttributes":"Intelligence, Willpower",
-    "name":"Arcane Trickster",
-    "majorSkills":"Destruction, Conjuration, Restoration, Alchemy, Enchant",
-    "description":""
-  },
-  "inventory":[]
+  "destinationOverrides":[]
 }

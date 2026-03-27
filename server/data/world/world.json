@@ -3,7 +3,7 @@
     "year":427,
     "month":7,
     "day":16,
-    "hour":9,
+    "hour":11.0003,
     "daysPassed":1,
     "nightTimeScale":40,
     "dayTimeScale":30
@@ -19,6 +19,14 @@
   "destinationOverrides":[],
   "factionRanks":[],
   "factionReputation":[],
+  "factionExpulsion":[],
   "mapExplored":[],
-  "factionExpulsion":[]
+  "clientVariables":{
+    "globals":{
+      "dbattack":{
+        "variableType":0,
+        "intValue":1
+      }
+    }
+  }
 }
