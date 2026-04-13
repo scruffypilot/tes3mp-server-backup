@@ -2,31 +2,588 @@
   "time":{
     "year":427,
     "month":7,
-    "day":16,
-    "hour":11.0003,
-    "daysPassed":1,
+    "day":27,
+    "hour":15.004533333333,
+    "daysPassed":12,
     "nightTimeScale":40,
     "dayTimeScale":30
   },
-  "topics":[],
-  "kills":[],
-  "journal":[],
+  "topics":["dark brotherhood","apelles matius","background","morrowind","uriel septim","duties","the empire","little advice","popular potions","popular scrolls","balmora","morrowind lore","pelagiad","caldera","ebonheart","vivec","services","citizens of the empire","latest rumors","fines and compensation","discerning eye","dagoth ur","dunmer","someone in particular","specific place","food","beds","red mountain","vodunius nuccius","solstheim","ring","seyda neen","vvardenfell district","vvardenfell","redguard","recover some gold","fargoth's hiding place","imperial legion","business","cantons","foreign quarter","arena","st. olms canton","ministry of truth","high fane","join the mages guild","mages guild","advancement","trebonius","egg of time","divine metaphysics","disappearance of the dwarves","redoran compound","telvanni compound","requirements","destination","join the fighters guild","fighters guild","rules","orders","juicedaw feather ring","little secret","balen andrano","travel together","outlander","house hlaalu","hlaalu councilors","crassius curio","dram bero","velanda omani","yngling half-troll","nevena ules","ralen hlaalo","silt strider","join house hlaalu","foreigners","morag tong","local brews","help in a fight","telvanni bug musk","high places","mushrooms","luminous russula","violet coprinus","bungler's bane","hypha facia","odai","daedric","sadrith mora","hla oad","bitter coast region","doing some business","murderous outlaws","bet with galbedir","fake soul gem","flowers","gold kanet","stoneflower petals","willow anther","heather","lake amaya","tel mora","suran","ascadian isles","vedam dren","ceramic bowl","stolen reports","enchantments","enchanters","my airship","hrothmund's barrow","recover the amulet","crew has failed me","house redoran","chronicles of nchuleft","settlements in morrowind","imperial","imperial cult","join the thieves guild","join the temple","my trade","work","detect creatures potion","chimarvamidium","huleen's hut","ald'ruhn","maar gan","taunt the daedra","scamp","all my fault","tenyeminwe","gateway","hospitality papers","house telvanni","go free","elf-skerring","vampires of vvardenfell","caldera mining company","join us","guild dues","festering witch","cloudcleaver","making a deal","pemenie the trader","boots of blinding speed","gnaar mok","hlormar","sosia's offer","lay member","punabi","sulipund","molag amur"],
+  "kills":{
+    "alit":2,
+    "kagouti_mating":1,
+    "tanisie verethi":1,
+    "kwama forager":11,
+    "melar baram":1,
+    "mudcrab":5,
+    "cliff racer":4,
+    "scrib":19,
+    "scrib diseased":3,
+    "db_assassin1b":12,
+    "scamp_mg_apprentice":1,
+    "slaughterfish_small":1,
+    "guar_feral":1,
+    "rat_diseased":1,
+    "nix-hound":12,
+    "agronian guy":1,
+    "rat":19
+  },
+  "journal":[{
+      "type":0,
+      "index":30,
+      "quest":"tr_dbattack",
+      "actorRefId":"hlaalu guard_outside",
+      "timestamp":{
+        "month":7,
+        "day":16,
+        "daysPassed":1
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"bm_rumors",
+      "actorRefId":"vodunius nuccius",
+      "timestamp":{
+        "month":7,
+        "day":18,
+        "daysPassed":3
+      }
+    },{
+      "type":0,
+      "index":50,
+      "quest":"bm_rumors",
+      "actorRefId":"vodunius nuccius",
+      "timestamp":{
+        "month":7,
+        "day":18,
+        "daysPassed":3
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"ms_fargothring",
+      "actorRefId":"fargoth",
+      "timestamp":{
+        "month":7,
+        "day":18,
+        "daysPassed":3
+      }
+    },{
+      "type":0,
+      "index":5,
+      "quest":"mv_angrytrader",
+      "actorRefId":"tinos drothan",
+      "timestamp":{
+        "month":7,
+        "day":19,
+        "daysPassed":4
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_dwarves",
+      "actorRefId":"trebonius artorius",
+      "timestamp":{
+        "month":7,
+        "day":19,
+        "daysPassed":4
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"fg_debtorc",
+      "actorRefId":"lorbumol gro-aglakh",
+      "timestamp":{
+        "month":7,
+        "day":19,
+        "daysPassed":4
+      }
+    },{
+      "type":0,
+      "index":5,
+      "quest":"hh_retaliation",
+      "actorRefId":"ralen hlaalo",
+      "timestamp":{
+        "month":7,
+        "day":20,
+        "daysPassed":5
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_bcshrooms",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":20,
+        "daysPassed":5
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_bcshrooms",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":22,
+        "daysPassed":7
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_sabotage",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":22,
+        "daysPassed":7
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_sabotage",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":22,
+        "daysPassed":7
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_flowers",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":22,
+        "daysPassed":7
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_flowers",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_bowl",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_bowl",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_stolenreport",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_stolenreport",
+      "actorRefId":"ajira",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"bm_airship",
+      "actorRefId":"louis beauchamp",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":20,
+      "quest":"bm_airship",
+      "actorRefId":"louis beauchamp",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":40,
+      "quest":"bm_airship",
+      "actorRefId":"louis beauchamp",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_nchuleftbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"tt_pilgrimspath",
+      "actorRefId":"bk_pilgrimspath",
+      "timestamp":{
+        "month":7,
+        "day":23,
+        "daysPassed":8
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_nchuleftbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_potion",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":50,
+      "quest":"mg_potion",
+      "actorRefId":"skinkintreesshade",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_potion",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_stealbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_stealbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_apprentice",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":40,
+      "quest":"mg_apprentice",
+      "actorRefId":"listien bierles",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_apprentice",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_returnbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_returnbook",
+      "actorRefId":"edwinna elbert",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_escortscholar1",
+      "actorRefId":"skinkintreesshade",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":1,
+      "quest":"hospitality_papers",
+      "actorRefId":"angaredhel",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":50,
+      "quest":"hospitality_papers",
+      "actorRefId":"angaredhel",
+      "timestamp":{
+        "month":7,
+        "day":24,
+        "daysPassed":9
+      }
+    },{
+      "type":0,
+      "index":70,
+      "quest":"mg_escortscholar1",
+      "actorRefId":"tenyeminwe",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mg_escortscholar1",
+      "actorRefId":"skinkintreesshade",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_vampvol2",
+      "actorRefId":"skinkintreesshade",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_advancement",
+      "actorRefId":"ranis athrys",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":20,
+      "quest":"mg_advancement",
+      "actorRefId":"ranis athrys",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mv_abusedhealer",
+      "actorRefId":"hlormar wine-sot",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":30,
+      "quest":"mv_abusedhealer",
+      "actorRefId":"hlormar wine-sot",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mv_traderabandoned",
+      "actorRefId":"pemenie",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":20,
+      "quest":"mv_traderabandoned",
+      "actorRefId":"pemenie",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":90,
+      "quest":"mv_traderabandoned",
+      "actorRefId":"pemenie",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":100,
+      "quest":"mv_traderabandoned",
+      "actorRefId":"pemenie",
+      "timestamp":{
+        "month":7,
+        "day":25,
+        "daysPassed":10
+      }
+    },{
+      "type":0,
+      "index":40,
+      "quest":"mv_abusedhealer",
+      "actorRefId":"sosia caristiana",
+      "timestamp":{
+        "month":7,
+        "day":26,
+        "daysPassed":11
+      }
+    },{
+      "type":0,
+      "index":50,
+      "quest":"mv_abusedhealer",
+      "actorRefId":"sosia caristiana",
+      "timestamp":{
+        "month":7,
+        "day":26,
+        "daysPassed":11
+      }
+    },{
+      "type":0,
+      "index":70,
+      "quest":"mv_abusedhealer",
+      "actorRefId":"hlormar wine-sot",
+      "timestamp":{
+        "month":7,
+        "day":26,
+        "daysPassed":11
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_paydues",
+      "actorRefId":"ranis athrys",
+      "timestamp":{
+        "month":7,
+        "day":26,
+        "daysPassed":11
+      }
+    },{
+      "type":0,
+      "index":10,
+      "quest":"mg_joinus",
+      "actorRefId":"ranis athrys",
+      "timestamp":{
+        "month":7,
+        "day":26,
+        "daysPassed":11
+      }
+    }],
   "customVariables":[],
   "fame":{
-    "reputation":0,
+    "reputation":2,
     "bounty":0
   },
   "destinationOverrides":[],
-  "factionRanks":[],
-  "factionReputation":[],
-  "factionExpulsion":[],
-  "mapExplored":[],
+  "factionRanks":{
+    "mages guild":5,
+    "fighters guild":0
+  },
+  "factionReputation":{
+    "mages guild":47
+  },
   "clientVariables":{
     "globals":{
+      "mt_newcrimelevel":{
+        "variableType":0,
+        "intValue":45
+      },
       "dbattack":{
         "variableType":0,
         "intValue":1
       }
     }
-  }
+  },
+  "mapExplored":[],
+  "factionExpulsion":[]
 }

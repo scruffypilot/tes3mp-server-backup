@@ -1,21 +1,21 @@
 {
   "packets":{
-    "actorList":["0-24","0-22"],
+    "actorList":[],
     "ai":[],
     "cellChangeFrom":[],
     "cellChangeTo":[],
-    "container":["49030-0","49031-0","49032-0","49033-0","49034-0","49035-0","49036-0","49037-0","49038-0","49039-0","476093-0","476094-0","476095-0","476096-0","476097-0","476098-0","476099-0","476100-0","476106-0","476107-0","476108-0","476109-0","476110-0","476111-0","0-24","0-22"],
+    "container":["49030-0","49031-0","49032-0","49033-0","49034-0","49035-0","49036-0","49037-0","49038-0","49039-0","476093-0","476094-0","476095-0","476096-0","476097-0","476098-0","476099-0","476100-0","476106-0","476107-0","476108-0","476109-0","476110-0","476111-0"],
     "death":[],
     "delete":[],
     "doorState":[],
     "equipment":[],
     "lock":[],
     "place":[],
-    "position":["0-22","0-24"],
+    "position":[],
     "scale":[],
-    "spawn":["0-24","0-22"],
+    "spawn":[],
     "state":[],
-    "statsDynamic":["0-22","0-24"],
+    "statsDynamic":[],
     "trap":[],
     "spellsActive":[],
     "miscellaneous":[],
@@ -26,7 +26,8 @@
     "description":"-2, 1"
   },
   "lastVisit":{
-    "Handkram":1774591283
+    "Handkram":1776038436,
+    "Flee":1776036688
   },
   "recordLinks":[],
   "objectData":{
@@ -68,10 +69,10 @@
       "refId":"flora_chokeweed_02",
       "inventory":[]
     },
-    "49030-0":{
-      "refId":"flora_chokeweed_02",
+    "476107-0":{
+      "refId":"flora_stoneflower_01",
       "inventory":[{
-          "refId":"ingred_chokeweed_01",
+          "refId":"ingred_stoneflower_petals_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -102,10 +103,10 @@
       "refId":"flora_kreshweed_01",
       "inventory":[]
     },
-    "476098-0":{
-      "refId":"flora_kreshweed_03",
+    "476108-0":{
+      "refId":"flora_stoneflower_01",
       "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
+          "refId":"ingred_stoneflower_petals_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -122,77 +123,19 @@
           "soul":""
         }]
     },
-    "49031-0":{
+    "476099-0":{
+      "refId":"flora_kreshweed_02",
+      "inventory":[{
+          "refId":"ingred_kresh_fiber_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "476100-0":{
       "refId":"flora_chokeweed_02",
-      "inventory":[{
-          "refId":"ingred_chokeweed_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "0-22":{
-      "refId":"rat",
-      "location":{
-        "posX":-11807.032226563,
-        "posZ":2033.1129150391,
-        "posY":13253.609375,
-        "rotX":0,
-        "rotY":0,
-        "rotZ":0
-      },
-      "stats":{
-        "healthCurrent":23,
-        "magickaCurrent":10,
-        "healthModified":23,
-        "fatigueBase":300,
-        "fatigueModified":300,
-        "healthBase":23,
-        "magickaModified":10,
-        "magickaBase":10,
-        "fatigueCurrent":300
-      },
       "inventory":[]
-    },
-    "0-24":{
-      "refId":"cliff racer",
-      "location":{
-        "posX":-15536.706054688,
-        "posZ":4366.783203125,
-        "posY":16192.14453125,
-        "rotX":0,
-        "rotY":0,
-        "rotZ":-0.065743446350098
-      },
-      "stats":{
-        "healthCurrent":45,
-        "magickaCurrent":20,
-        "healthModified":45,
-        "fatigueBase":400,
-        "fatigueModified":400,
-        "healthBase":45,
-        "magickaModified":20,
-        "magickaBase":20,
-        "fatigueCurrent":400
-      },
-      "inventory":[{
-          "refId":"ingred_racer_plumes_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476107-0":{
-      "refId":"flora_stoneflower_01",
-      "inventory":[{
-          "refId":"ingred_stoneflower_petals_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
     },
     "476110-0":{
       "refId":"flora_stoneflower_01",
@@ -204,15 +147,9 @@
           "soul":""
         }]
     },
-    "476109-0":{
-      "refId":"flora_stoneflower_02",
-      "inventory":[{
-          "refId":"ingred_stoneflower_petals_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+    "476096-0":{
+      "refId":"flora_kreshweed_02",
+      "inventory":[]
     },
     "49036-0":{
       "refId":"flora_chokeweed_02",
@@ -224,10 +161,10 @@
           "soul":""
         }]
     },
-    "476108-0":{
-      "refId":"flora_stoneflower_01",
+    "476098-0":{
+      "refId":"flora_kreshweed_03",
       "inventory":[{
-          "refId":"ingred_stoneflower_petals_01",
+          "refId":"ingred_kresh_fiber_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -264,14 +201,20 @@
           "soul":""
         }]
     },
-    "476100-0":{
-      "refId":"flora_chokeweed_02",
-      "inventory":[]
-    },
-    "476099-0":{
-      "refId":"flora_kreshweed_02",
+    "476109-0":{
+      "refId":"flora_stoneflower_02",
       "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
+          "refId":"ingred_stoneflower_petals_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "49031-0":{
+      "refId":"flora_chokeweed_02",
+      "inventory":[{
+          "refId":"ingred_chokeweed_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -288,9 +231,15 @@
           "soul":""
         }]
     },
-    "476096-0":{
-      "refId":"flora_kreshweed_02",
-      "inventory":[]
+    "49030-0":{
+      "refId":"flora_chokeweed_02",
+      "inventory":[{
+          "refId":"ingred_chokeweed_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
     }
   },
   "loadState":{

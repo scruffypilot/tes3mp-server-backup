@@ -1,24 +1,24 @@
 {
   "packets":{
-    "actorList":["297839-0"],
+    "actorList":["297839-0","0-62"],
     "ai":[],
     "cellChangeFrom":[],
     "cellChangeTo":[],
-    "container":["323908-0","476164-0","476165-0","476166-0","476167-0","476168-0","476169-0","476170-0","476171-0","476173-0","476174-0","476175-0","297839-0"],
-    "death":[],
+    "container":["323908-0","476164-0","476165-0","476166-0","476167-0","476168-0","476169-0","476170-0","476171-0","476173-0","476174-0","476175-0","297839-0","0-62"],
+    "death":["0-62"],
     "delete":[],
     "doorState":[],
-    "equipment":["297839-0"],
+    "equipment":["297839-0","0-62"],
     "lock":[],
     "place":[],
-    "position":["297839-0"],
+    "position":["297839-0","0-62"],
     "scale":[],
-    "spawn":[],
+    "spawn":["0-62"],
     "state":[],
-    "statsDynamic":["297839-0"],
+    "statsDynamic":["297839-0","0-62"],
     "trap":[],
     "spellsActive":[],
-    "miscellaneous":[],
+    "miscellaneous":["297839-0"],
     "clientScriptLocal":[]
   },
   "entry":{
@@ -26,19 +26,22 @@
     "description":"-2, -3"
   },
   "lastVisit":{
-    "Handkram":1774591947
+    "Handkram":1776039937,
+    "Flee":1776038706
   },
   "recordLinks":[],
   "objectData":{
     "323908-0":{
       "refId":"flora_roobrush_02",
-      "inventory":[{
-          "refId":"ingred_roobrush_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+      "inventory":[]
+    },
+    "476169-0":{
+      "refId":"flora_kreshweed_02",
+      "inventory":[]
+    },
+    "476164-0":{
+      "refId":"flora_kreshweed_03",
+      "inventory":[]
     },
     "476173-0":{
       "refId":"flora_kreshweed_01",
@@ -50,29 +53,13 @@
           "soul":""
         }]
     },
-    "476169-0":{
-      "refId":"flora_kreshweed_02",
+    "476165-0":{
+      "refId":"flora_chokeweed_02",
       "inventory":[]
-    },
-    "476164-0":{
-      "refId":"flora_kreshweed_03",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
     },
     "476171-0":{
       "refId":"flora_kreshweed_03",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+      "inventory":[]
     },
     "476167-0":{
       "refId":"flora_kreshweed_01",
@@ -84,69 +71,64 @@
           "soul":""
         }]
     },
-    "476165-0":{
+    "476168-0":{
       "refId":"flora_chokeweed_02",
-      "inventory":[{
-          "refId":"ingred_chokeweed_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+      "inventory":[]
     },
     "476174-0":{
       "refId":"flora_roobrush_02",
-      "inventory":[{
-          "refId":"ingred_roobrush_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476168-0":{
-      "refId":"flora_chokeweed_02",
-      "inventory":[{
-          "refId":"ingred_chokeweed_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+      "inventory":[]
     },
     "476166-0":{
       "refId":"flora_kreshweed_02",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476175-0":{
-      "refId":"flora_kreshweed_02",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
+      "inventory":[]
     },
     "476170-0":{
       "refId":"flora_chokeweed_02",
       "inventory":[]
     },
+    "476175-0":{
+      "refId":"flora_kreshweed_02",
+      "inventory":[]
+    },
+    "0-62":{
+      "refId":"db_assassin1b",
+      "location":{
+        "posX":-15349.53125,
+        "posZ":1150.3411865234,
+        "posY":-17729.82421875,
+        "rotX":-0.23641642928123,
+        "rotY":0,
+        "rotZ":0.62064599990845
+      },
+      "stats":{
+        "healthCurrent":0,
+        "magickaCurrent":100,
+        "healthModified":40,
+        "fatigueBase":150,
+        "fatigueModified":150,
+        "healthBase":40,
+        "magickaModified":100,
+        "magickaBase":100,
+        "fatigueCurrent":69.378837585449
+      },
+      "equipment":[],
+      "inventory":[],
+      "spellsActive":[],
+      "killer":{
+        "playerName":"Handkram"
+      },
+      "deathState":40
+    },
     "297839-0":{
       "refId":"dreamer_talker01",
       "location":{
-        "posX":-10606.122070313,
-        "posZ":606.27258300781,
-        "posY":-18957.73828125,
-        "rotX":-0.14488174021244,
+        "posX":-10854.989257813,
+        "posZ":585.00061035156,
+        "posY":-18724.177734375,
+        "rotX":0,
         "rotY":0,
-        "rotZ":2.4490578174591
+        "rotZ":3.5831854343414
       },
       "stats":{
         "healthCurrent":40,
@@ -191,7 +173,10 @@
           "charge":-1,
           "enchantmentCharge":-1,
           "soul":""
-        }]
+        }],
+      "lastGoldRestockDay":6,
+      "lastGoldRestockHour":23.900434494019,
+      "goldPool":0
     }
   },
   "loadState":{

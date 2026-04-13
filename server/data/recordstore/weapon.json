@@ -1,9 +1,20 @@
 {
   "general":{
-    "currentGeneratedNum":0
+    "currentGeneratedNum":1
   },
   "permanentRecords":[],
-  "generatedRecords":[],
-  "recordLinks":[],
+  "generatedRecords":{
+    "$custom_weapon_1":{
+      "baseId":"imperial broadsword",
+      "name":"Shocking Imperial Broadsword",
+      "enchantmentId":"$custom_enchantment_1",
+      "enchantmentCharge":10
+    }
+  },
+  "recordLinks":{
+    "$custom_weapon_1":{
+      "players":["Handkram"]
+    }
+  },
   "unlinkedRecordsToCheck":[]
 }

@@ -1,21 +1,21 @@
 {
   "packets":{
-    "actorList":["0-6","0-25"],
+    "actorList":["0-25"],
     "ai":[],
     "cellChangeFrom":[],
     "cellChangeTo":[],
-    "container":["475922-0","475923-0","475924-0","475925-0","475926-0","475927-0","0-6","0-25"],
+    "container":["475922-0","475923-0","475924-0","475925-0","475926-0","475927-0","0-25"],
     "death":[],
     "delete":[],
     "doorState":[],
     "equipment":["0-25"],
     "lock":[],
     "place":[],
-    "position":["0-6","0-25"],
+    "position":["0-25"],
     "scale":[],
-    "spawn":["0-6","0-25"],
+    "spawn":["0-25"],
     "state":[],
-    "statsDynamic":["0-6","0-25"],
+    "statsDynamic":["0-25"],
     "trap":[],
     "spellsActive":[],
     "miscellaneous":[],
@@ -26,22 +26,22 @@
     "description":"-1, 0"
   },
   "lastVisit":{
-    "Handkram":1774591283
+    "Handkram":1776038479
   },
   "recordLinks":[],
   "objectData":{
     "0-25":{
       "refId":"db_assassin1b",
       "location":{
-        "posX":-523.31988525391,
-        "posZ":447.03048706055,
-        "posY":2399.1350097656,
-        "rotX":-0.20272839069366,
+        "posX":-198.44674682617,
+        "posZ":369.92291259766,
+        "posY":3190.916015625,
+        "rotX":0.21011963486671,
         "rotY":0,
-        "rotZ":-2.9949276447296
+        "rotZ":1.8512256145477
       },
       "stats":{
-        "healthCurrent":24.115440368652,
+        "healthCurrent":40,
         "magickaCurrent":100,
         "healthModified":40,
         "fatigueBase":150,
@@ -49,7 +49,7 @@
         "healthBase":40,
         "magickaModified":100,
         "magickaBase":100,
-        "fatigueCurrent":145.12696838379
+        "fatigueCurrent":150
       },
       "equipment":{
         "0":{
@@ -103,7 +103,7 @@
         "16":{
           "refId":"silver dagger",
           "count":1,
-          "charge":398,
+          "charge":-1,
           "enchantmentCharge":-1
         }
       },
@@ -189,47 +189,8 @@
           "soul":""
         }]
     },
-    "0-6":{
-      "refId":"kwama forager",
-      "location":{
-        "posX":-7922.5112304688,
-        "posZ":1278.7098388672,
-        "posY":6658.9609375,
-        "rotX":0.040784787386656,
-        "rotY":0,
-        "rotZ":-2.4118616580963
-      },
-      "stats":{
-        "healthCurrent":23,
-        "magickaCurrent":15,
-        "healthModified":23,
-        "fatigueBase":300,
-        "fatigueModified":300,
-        "healthBase":23,
-        "magickaModified":15,
-        "magickaBase":15,
-        "fatigueCurrent":300
-      },
-      "inventory":[{
-          "refId":"ingred_kwama_cuttle_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "475924-0":{
-      "refId":"flora_stoneflower_01",
-      "inventory":[{
-          "refId":"ingred_stoneflower_petals_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "475927-0":{
-      "refId":"flora_stoneflower_01",
+    "475925-0":{
+      "refId":"flora_stoneflower_02",
       "inventory":[{
           "refId":"ingred_stoneflower_petals_01",
           "count":1,
@@ -248,8 +209,18 @@
           "soul":""
         }]
     },
-    "475925-0":{
-      "refId":"flora_stoneflower_02",
+    "475924-0":{
+      "refId":"flora_stoneflower_01",
+      "inventory":[{
+          "refId":"ingred_stoneflower_petals_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "475927-0":{
+      "refId":"flora_stoneflower_01",
       "inventory":[{
           "refId":"ingred_stoneflower_petals_01",
           "count":1,

@@ -1,9 +1,74 @@
 {
   "general":{
-    "currentGeneratedNum":0
+    "currentGeneratedNum":3
   },
   "permanentRecords":[],
-  "generatedRecords":[],
-  "recordLinks":[],
+  "generatedRecords":{
+    "$custom_enchantment_2":{
+      "subtype":2,
+      "cost":1,
+      "charge":20,
+      "flags":0,
+      "effects":[{
+          "id":75,
+          "attribute":-1,
+          "skill":-1,
+          "rangeType":1,
+          "area":0,
+          "duration":1,
+          "magnitudeMax":7,
+          "magnitudeMin":3
+        }]
+    },
+    "$custom_enchantment_1":{
+      "subtype":1,
+      "cost":1,
+      "charge":10,
+      "flags":0,
+      "effects":[{
+          "id":15,
+          "attribute":-1,
+          "skill":-1,
+          "rangeType":1,
+          "area":0,
+          "duration":1,
+          "magnitudeMax":5,
+          "magnitudeMin":5
+        }]
+    },
+    "$custom_enchantment_3":{
+      "subtype":2,
+      "cost":1,
+      "charge":30,
+      "flags":0,
+      "effects":[{
+          "id":75,
+          "attribute":-1,
+          "skill":-1,
+          "rangeType":0,
+          "area":0,
+          "duration":1,
+          "magnitudeMax":9,
+          "magnitudeMin":5
+        }]
+    }
+  },
+  "recordLinks":{
+    "$custom_enchantment_2":{
+      "records":{
+        "clothing":["$custom_clothing_1"]
+      }
+    },
+    "$custom_enchantment_1":{
+      "records":{
+        "weapon":["$custom_weapon_1"]
+      }
+    },
+    "$custom_enchantment_3":{
+      "records":{
+        "clothing":["$custom_clothing_2"]
+      }
+    }
+  },
   "unlinkedRecordsToCheck":[]
 }

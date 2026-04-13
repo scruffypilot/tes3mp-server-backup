@@ -1,21 +1,21 @@
 {
   "packets":{
-    "actorList":["0-21","261829-0"],
+    "actorList":["261829-0"],
     "ai":[],
     "cellChangeFrom":[],
     "cellChangeTo":[],
-    "container":["49389-0","49390-0","49391-0","49392-0","49393-0","362871-0","362872-0","468037-0","476137-0","476138-0","476139-0","476140-0","476141-0","476142-0","476143-0","476146-0","261829-0","0-21"],
+    "container":["49389-0","49390-0","49391-0","49392-0","49393-0","362871-0","362872-0","468037-0","476137-0","476138-0","476139-0","476140-0","476141-0","476142-0","476143-0","476146-0","261829-0"],
     "death":[],
     "delete":[],
     "doorState":[],
     "equipment":["261829-0"],
     "lock":[],
     "place":[],
-    "position":["261829-0","0-21"],
+    "position":["261829-0"],
     "scale":[],
-    "spawn":["0-21"],
+    "spawn":[],
     "state":[],
-    "statsDynamic":["261829-0","0-21"],
+    "statsDynamic":["261829-0"],
     "trap":[],
     "spellsActive":[],
     "miscellaneous":[],
@@ -26,7 +26,8 @@
     "description":"-2, -1"
   },
   "lastVisit":{
-    "Handkram":1774591283
+    "Handkram":1776039937,
+    "Flee":1776038706
   },
   "recordLinks":[],
   "objectData":{
@@ -40,10 +41,10 @@
           "soul":""
         }]
     },
-    "49390-0":{
-      "refId":"flora_chokeweed_02",
+    "362871-0":{
+      "refId":"flora_kreshweed_02",
       "inventory":[{
-          "refId":"ingred_chokeweed_01",
+          "refId":"ingred_kresh_fiber_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -74,85 +75,6 @@
       "refId":"flora_kreshweed_01",
       "inventory":[{
           "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476139-0":{
-      "refId":"flora_kreshweed_01",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476141-0":{
-      "refId":"flora_kreshweed_02",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476142-0":{
-      "refId":"flora_kreshweed_03",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "468037-0":{
-      "refId":"flora_roobrush_02",
-      "inventory":[{
-          "refId":"ingred_roobrush_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "476137-0":{
-      "refId":"flora_kreshweed_01",
-      "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        }]
-    },
-    "0-21":{
-      "refId":"nix-hound",
-      "location":{
-        "posX":-10030.5625,
-        "posZ":706.83868408203,
-        "posY":-1754.5632324219,
-        "rotX":-0.11612292379141,
-        "rotY":0,
-        "rotZ":2.6011745929718
-      },
-      "stats":{
-        "healthCurrent":23,
-        "magickaCurrent":10,
-        "healthModified":23,
-        "fatigueBase":400,
-        "fatigueModified":400,
-        "healthBase":23,
-        "magickaModified":10,
-        "magickaBase":10,
-        "fatigueCurrent":400
-      },
-      "inventory":[{
-          "refId":"ingred_hound_meat_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -203,12 +125,6 @@
           "enchantmentCharge":-1,
           "soul":""
         },{
-          "refId":"bk_notefromernil",
-          "count":1,
-          "charge":-1,
-          "enchantmentCharge":-1,
-          "soul":""
-        },{
           "refId":"common_shirt_02_h",
           "count":1,
           "charge":-1,
@@ -222,6 +138,50 @@
           "soul":""
         },{
           "refId":"common_pants_02",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "476141-0":{
+      "refId":"flora_kreshweed_02",
+      "inventory":[{
+          "refId":"ingred_kresh_fiber_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "49392-0":{
+      "refId":"flora_chokeweed_02",
+      "inventory":[]
+    },
+    "468037-0":{
+      "refId":"flora_roobrush_02",
+      "inventory":[{
+          "refId":"ingred_roobrush_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "476137-0":{
+      "refId":"flora_kreshweed_01",
+      "inventory":[{
+          "refId":"ingred_kresh_fiber_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "476142-0":{
+      "refId":"flora_kreshweed_03",
+      "inventory":[{
+          "refId":"ingred_kresh_fiber_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -242,8 +202,8 @@
       "refId":"flora_kreshweed_02",
       "inventory":[]
     },
-    "362871-0":{
-      "refId":"flora_kreshweed_02",
+    "476139-0":{
+      "refId":"flora_kreshweed_01",
       "inventory":[{
           "refId":"ingred_kresh_fiber_01",
           "count":1,
@@ -262,14 +222,20 @@
           "soul":""
         }]
     },
-    "49392-0":{
-      "refId":"flora_chokeweed_02",
-      "inventory":[]
-    },
     "476143-0":{
       "refId":"flora_kreshweed_01",
       "inventory":[{
           "refId":"ingred_kresh_fiber_01",
+          "count":1,
+          "charge":-1,
+          "enchantmentCharge":-1,
+          "soul":""
+        }]
+    },
+    "49390-0":{
+      "refId":"flora_chokeweed_02",
+      "inventory":[{
+          "refId":"ingred_chokeweed_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,

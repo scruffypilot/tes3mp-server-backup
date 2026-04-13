@@ -26,7 +26,7 @@
     "description":"-1, -1"
   },
   "lastVisit":{
-    "Handkram":1774591283
+    "Handkram":1776038479
   },
   "recordLinks":[],
   "objectData":{
@@ -214,10 +214,10 @@
           "soul":""
         }]
     },
-    "475942-0":{
-      "refId":"flora_stoneflower_01",
+    "475955-0":{
+      "refId":"flora_kreshweed_02",
       "inventory":[{
-          "refId":"ingred_stoneflower_petals_01",
+          "refId":"ingred_kresh_fiber_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,
@@ -227,21 +227,21 @@
     "0-12":{
       "refId":"cliff racer",
       "location":{
-        "posX":-2580.6350097656,
-        "posZ":3156.9787597656,
-        "posY":-8008.2475585938,
+        "posX":-3768.9301757813,
+        "posZ":3156.978515625,
+        "posY":-8050.5439453125,
         "rotX":0,
         "rotY":0,
-        "rotZ":-2.2362444400787
+        "rotZ":1.8703796863556
       },
       "stats":{
         "healthCurrent":45,
         "magickaCurrent":20,
         "healthModified":45,
         "fatigueBase":400,
+        "magickaModified":20,
         "fatigueModified":400,
         "healthBase":45,
-        "magickaModified":20,
         "magickaBase":20,
         "fatigueCurrent":400
       },
@@ -257,7 +257,7 @@
           "soul":""
         }]
     },
-    "475939-0":{
+    "475942-0":{
       "refId":"flora_stoneflower_01",
       "inventory":[{
           "refId":"ingred_stoneflower_petals_01",
@@ -291,10 +291,10 @@
       "refId":"flora_stoneflower_02",
       "inventory":[]
     },
-    "475955-0":{
-      "refId":"flora_kreshweed_02",
+    "475939-0":{
+      "refId":"flora_stoneflower_01",
       "inventory":[{
-          "refId":"ingred_kresh_fiber_01",
+          "refId":"ingred_stoneflower_petals_01",
           "count":1,
           "charge":-1,
           "enchantmentCharge":-1,

@@ -1,9 +1,29 @@
 {
   "general":{
-    "currentGeneratedNum":0
+    "currentGeneratedNum":2
   },
   "permanentRecords":[],
-  "generatedRecords":[],
-  "recordLinks":[],
+  "generatedRecords":{
+    "$custom_clothing_1":{
+      "baseId":"expensive_robe_03",
+      "name":"Handkram's Robe",
+      "enchantmentId":"$custom_enchantment_2",
+      "enchantmentCharge":20
+    },
+    "$custom_clothing_2":{
+      "baseId":"common_robe_01",
+      "name":"Robe of Minor Healing",
+      "enchantmentId":"$custom_enchantment_3",
+      "enchantmentCharge":30
+    }
+  },
+  "recordLinks":{
+    "$custom_clothing_1":{
+      "players":["Handkram"]
+    },
+    "$custom_clothing_2":{
+      "players":["Handkram"]
+    }
+  },
   "unlinkedRecordsToCheck":[]
 }
